@@ -1,0 +1,3 @@
+This is a copy of the `postgresql-operator-5.0.4-agora1` with the related images updated in prepearation for th eupdate to postgres operator 5.3.0.
+
+Reference: [https://access.crunchydata.com/documentation/postgres-operator/v5/upgrade/kustomize/#upgrading-from-pgo-v5-0-5-and-below](https://access.crunchydata.com/documentation/postgres-operator/v5/upgrade/kustomize/#upgrading-from-pgo-v5-0-5-and-below)

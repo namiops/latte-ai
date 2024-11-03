@@ -1,0 +1,1 @@
+This directory has deployments that is currently our custom providers. We have a trouble to deploy it into keycloak now, so this directory keeps them just for convenience. Once we resolve the issue, this directory and its contents will be removed.

@@ -1,0 +1,9 @@
+# What is purpose of this config 
+
+Configurations for garbage collection
+
+# Changelog
+
+## [0.0.1]
+
+- TBD

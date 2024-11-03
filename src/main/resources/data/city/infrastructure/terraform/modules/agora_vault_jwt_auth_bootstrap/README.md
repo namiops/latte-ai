@@ -1,0 +1,41 @@
+# agora_vault_jwt_auth_bootstrap
+
+A bootstrap module for creating JWT auth backend and secret engine for workloads on SMC clusters.
+
+## Requirements
+
+| Name            | Version |
+|-----------------|---------|
+| Terraform       | >= 0.13 |
+
+## Providers
+| Name            | Version  |
+|-----------------|----------|
+| Hashicorp Vault | >= 3.5.0 |
+
+## Modules
+None
+
+## Resources
+
+| Name                               | Description                                                                                                                                                              | Type     | Default | Required |
+|------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|---------|----------|
+| vault_policy                       | The [Hashicorp Vault Policy](https://registry.terraform.io/providers/hashicorp/vault/latest/docs/resources/policy) used to tie a set of secrets to a given role or roles | Resource | null    | yes      |
+| vault_kubernetes_auth_backend_role | The [Hashicorp Kubernetes Auth Backend Role](https://registry.terraform.io/providers/hashicorp/vault/latest/docs/resources/kubernetes_auth_backend_role)                 | Resource | null    | yes      |
+
+
+## Inputs
+
+| Name            | Description                                                                                                       | Type     | Default | Required |
+|-----------------|-------------------------------------------------------------------------------------------------------------------|----------|---------|----------|
+| auth_backend    | The name of the desired [Secret Engine](https://www.vaultproject.io/docs/secrets/kubernetes) that you wish to use | `string` | null    | yes      |
+| environment     | Environment name policy                                                                                           | `string` | null    | yes      |
+| vault_namespace | The assigned [Vault Namespace](https://developer.hashicorp.com/vault/docs/enterprise/namespaces)                  | `string` | null    | yes      |
+
+
+
+## Outputs
+| Name        | Description                    |
+|-------------|--------------------------------|
+| policy_name | The name of the policy created |
+| role_name   | The name of the role created   |

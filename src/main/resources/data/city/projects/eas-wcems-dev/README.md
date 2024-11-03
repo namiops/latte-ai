@@ -1,0 +1,1 @@
+Your App is managed by [the another repo](https://github.tri-ad.tech/eas-demofunc)

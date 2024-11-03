@@ -1,0 +1,1 @@
+See [here](../../../ac-user-registration/frontend/pull_request_template.md)

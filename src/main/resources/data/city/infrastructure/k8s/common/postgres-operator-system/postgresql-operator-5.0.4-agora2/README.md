@@ -1,0 +1,3 @@
+This is a copy of the `postgresql-operator-5.0.4-agora1` with the [related images](https://github.tri-ad.tech/cityos-platform/cityos/pull/4226/files#diff-3d85da7222c75e805393e118b6465cb7a4620d616d641ccb94cb2e28887c9592R205) updated. Before we can update the operator, we need to update all postgres instances to use the newer version of postgres and pgBackrest images. We dont want to force this change for all clusters thats why we made a copy of the operator.
+
+Reference: [https://access.crunchydata.com/documentation/postgres-operator/v5/upgrade/kustomize/#upgrading-from-pgo-v5-0-5-and-below](https://access.crunchydata.com/documentation/postgres-operator/v5/upgrade/kustomize/#upgrading-from-pgo-v5-0-5-and-below)

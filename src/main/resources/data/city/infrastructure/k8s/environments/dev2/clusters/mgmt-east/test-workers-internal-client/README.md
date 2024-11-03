@@ -1,0 +1,1 @@
+### This namespace is used to test and monitor service mesh internal connectivity and routing.
