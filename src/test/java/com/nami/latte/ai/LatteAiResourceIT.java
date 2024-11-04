@@ -3,6 +3,6 @@ package com.nami.latte.ai;
 import io.quarkus.test.junit.QuarkusIntegrationTest;
 
 @QuarkusIntegrationTest
-class GreetingResourceIT extends GreetingResourceTest {
+class LatteAiResourceIT extends LatteResourceTest {
     // Execute the same tests but in packaged mode.
 }
